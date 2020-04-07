@@ -33,9 +33,6 @@
     </item>
     <item>
      <widget class="QLineEdit" name="message_input">
-      <property name="enabled">
-       <bool>false</bool>
-      </property>
       <property name="placeholderText">
        <string>Введите сообщение...</string>
       </property>
