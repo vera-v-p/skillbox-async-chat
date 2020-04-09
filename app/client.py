@@ -1,6 +1,9 @@
-#
 # Клиентское приложение с интерфейсом
-#
+# интерфейс разработан в Qt Designet (запуск - командой pyside2-designer)
+# полученный файл в формате .ui переформатирован в .py при помощи команды:
+# pyside2-uic app/interface.ui -o app/interface.py
+# компиляция: pyinstaller --noconsole app/client.py
+
 import asyncio
 from asyncio import transports
 from PySide2.QtWidgets import QMainWindow, QApplication
